@@ -1,0 +1,278 @@
+
+body{
+margin:0;
+font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+header{
+background-image:url("images/technology.jpg");
+background-size:cover;
+padding:10px;
+color:white;
+text-align:right;
+font-size:18px;
+}
+
+nav{
+background-image:url("3.jpg");
+}
+nav ul{
+margin:0;
+padding:0;
+overflow:hidden;
+}
+nav ul li{
+list-style-type:none;
+float:left;
+}
+nav ul li a{
+text-decoration:none;
+color:white;
+padding:15px;
+display:inline-block;
+font-size:18px;
+
+}
+nav ul li a.active{
+background-color:#ADD8E6;
+}
+nav ul li a:hover{
+background-color:	#DB7093;
+}
+.animation{
+background-color:lightgrey;
+padding:5px;
+margin-top:10px;
+animation:news 15s infinite linear;
+
+
+}
+@keyframes news{
+0% { 
+transform:translateX(100%);
+}
+100%{
+transform:translateX(-100%);
+}
+}
+
+.animation p {
+margin:0px;
+
+}
+
+.home_section{
+width:1100px;
+margin:auto;
+height:300px;
+transition:1s;
+
+}
+.home_article{
+border:2px solid black;
+width:320px;
+
+padding:10px;
+float:left;
+margin:5px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 15px black;
+
+margin-left:10px;
+
+
+
+
+}
+
+.home_section img{
+width:100%;
+height:100%;
+}
+.home_section:hover{
+width:1300px;
+}
+.break{
+clear:both;
+}
+.home_news_section h1{
+border:2px solid black;
+width:700px;
+margin:auto;
+padding:10px;
+text-align:center;
+background-color:lightgreen;
+border-radius:50px;
+}
+.home_news_article{
+border:2px solid black;
+width:600px;
+margin:auto;
+margin-top:30px;
+border-radius:25px;
+margin-bottom:30px;
+padding:15px;
+
+overflow:hidden;
+
+
+}
+.home_news_article img{
+width:100%;
+border-radius:25px;
+transition:1s;
+}
+.home_news_article img:hover{
+transform:scale(1.2,1.2);
+}
+footer{
+background-image:url("images/gallery_mobile_4.jpg");
+background-size:cover;
+padding:10px;
+text-align:center;
+}
+footer a{
+text-decoration:none;
+color:red;
+}
+.gallery_section{
+	width:1200px;
+	margin:auto;
+	
+}
+.gallery_article{
+	border:2px solid black;
+	width:275px;
+	float:left;
+	margin:10px;
+	height:275px;
+	border-radius:15px;
+	overflow:hidden;
+	box-shadow:0 0 15px black;
+	
+}
+.gallery_article img{
+	width:inherit;
+	height:inherit;
+	border-radius:15px;
+	transition:0.5s;
+}
+.gallery_article img:hover{
+	width:300px;
+}
+.about_section{
+	width:1200px;
+	margin-left:80px;;
+}
+.about_article{
+	border:2px solid black;
+	width:1100px;
+	background-image:url("images/about3.jpg");
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	box-shadow:0 0 15px black;
+	margin:20px;
+	background-size:cover;
+}
+.about_company_section{
+	width:1200px;
+	margin:auto;
+	
+}
+.about_company_article{
+	border:2px solid black;
+	width:275px;
+	float:left;
+	height:200px;
+	margin:5px;
+	margin-left:10px;
+border-radius:20px;
+overflow:hidden;
+}
+.about_company_article img{
+	width:inherit;
+	height:inherit;
+	border-radius:20px;
+	transition:1s;
+}
+.about_company_article img:hover{
+	width:300px;
+	
+}
+.contact_section{
+background:white url("images/3.png") no-repeat scroll top;
+width:100%;
+height:100%;
+margin:0px;
+
+
+}
+.contact_article{
+border:none;;
+width:300px;
+text-align:center;
+margin:auto;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px black;
+
+background-color:transparent;
+
+
+}
+input[type='text']{
+
+background-color:transparent;
+
+font-size:22px;
+height:40px;
+border:none;
+border-bottom:3px solid lightgreen;
+outline:none;
+color:white;
+margin:10px;
+}
+textarea{
+
+background-color:transparent;
+border:3px solid lightgreen;
+
+
+width:200px;
+outline:none;
+color:white;
+}
+input:focus{
+
+border-bottom:5px solid blue;
+}
+textarea:focus{
+border:3px solid red;
+}
+.login{
+margin-top:30px;
+font-size:25px;
+outline:none;
+background-color:lightgreen;
+height:50px;
+width:150px;
+border-radius:50px;
+}
+.login:hover{
+background-color:orangered;
+cursor:pointer;
+box-shadow:0 0 15px black;
+}
+.contact_article h1{
+color:white;
+}
+
+
+
+
+	
+
+	
